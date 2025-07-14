@@ -1,0 +1,23 @@
+package com.fitness.activityservice.model;
+
+public enum ActivityType {
+	
+	RUNNING,
+	WALKING,
+	CYCLING,
+	SWIMMING,
+	YOGA,
+	STRENGTH_TRANING,
+	AEROBICS,
+	HIKING,
+	CLIMBING,
+	DANCING,
+	BOXING,
+	PILATES,
+	ROWING,
+	ELLIPTICAL,
+	STAIR_CLIMBING,
+	TRIATHLON,
+	OTHER;
+
+}

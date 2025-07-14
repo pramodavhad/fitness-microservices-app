@@ -47,7 +47,7 @@ fitness-microservices-app/
 |--------------------|----------------------------------------------------------------|----------|
 | **User Service**   | Handles user registration, profile management                  | MySQL    |
 | **Activity Service** | Logs and tracks user fitness activities                      | MongoDB  |
-| **AI Service**     | Generates intelligent feedback based on registered activities  | —        |
+| **AI Service**     | Generates intelligent feedback based on registered activities  | MongoDB        |
 | **API Gateway**    | Routes requests and integrates with Keycloak for authentication | —        |
 | **Discovery Server** | Eureka registry for service discovery                         | —        |
 | **Config Server**  | Centralized configuration management                           | —        |

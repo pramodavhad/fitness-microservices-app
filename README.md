@@ -56,9 +56,10 @@ fitness-microservices-app/
 
 ## 🔄 Communication Flow
 
-- Services communicate via **REST APIs** and **RabbitMQ**.
-- Centralized routing and authentication via **API Gateway + Keycloak**.
-- All services registered to **Eureka Discovery Server**.
+- Services primarily communicate via **WebClient** (Spring's non-blocking HTTP client) for synchronous REST interactions.
+- For asynchronous processing, such as triggering AI feedback after activity registration, services use **RabbitMQ** as a message broker.
+- The **API Gateway** handles routing, security, and integrates with **Keycloak** for authentication and access control.
+- All microservices are registered with the **Eureka Discovery Server** for dynamic service discovery.
 
 ---
 

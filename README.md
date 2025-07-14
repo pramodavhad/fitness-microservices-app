@@ -1,7 +1,7 @@
 
 # 🏋️‍♂️ Fitness Microservices App
 
-A complete **Fitness Management Application** built using **Java**, **Spring Boot**, **Spring Cloud**, **MySQL**, **MongoDB**, **RabbitMQ**, **Keycloak**, and **React.js**. This project follows a **microservices architecture** to ensure scalability, maintainability, and modular development.
+A **Fitness Management Application** built using **Java**, **Spring Boot**, **Spring Cloud**, **MySQL**, **MongoDB**, **RabbitMQ**, **Keycloak**, and **React.js**. This project follows a **microservices architecture** to ensure scalability, maintainability, and modular development.
 
 ---
 
@@ -20,7 +20,7 @@ A complete **Fitness Management Application** built using **Java**, **Spring Boo
 ### Frontend
 - **React.js**
 - **Axios**
-- **Bootstrap / Tailwind CSS**
+- **Material UI**
 
 ---
 
@@ -56,7 +56,7 @@ fitness-microservices-app/
 
 ## 🔄 Communication Flow
 
-- Services communicate via **REST APIs** and **RabbitMQ** (if applicable).
+- Services communicate via **REST APIs** and **RabbitMQ**.
 - Centralized routing and authentication via **API Gateway + Keycloak**.
 - All services registered to **Eureka Discovery Server**.
 
@@ -80,7 +80,7 @@ Ensure the following tools are installed:
 - Node.js and npm
 - MySQL
 - MongoDB
-- RabbitMQ (if applicable)
+- RabbitMQ
 - Keycloak
 
 ### 2. Clone the Repository
@@ -163,7 +163,9 @@ Feel free to fork the repo, create a branch, and open a pull request.
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This is a personal practice project created for learning purposes.  
+Feel free to explore and learn from the code.  
+No official license is associated with this repository.
 
 ---
 
@@ -172,7 +174,7 @@ This project is licensed under the [MIT License](LICENSE).
 **Pramod Avhad**
 
 - GitHub: [@pramodavhad](https://github.com/pramodavhad)
-- LinkedIn: [Pramod Avhad](https://linkedin.com/in/pramodavhad)
+- LinkedIn: [Pramod Avhad](https://linkedin.com/in/pramod-avhad-bab8b6291)
 
 ---
 
